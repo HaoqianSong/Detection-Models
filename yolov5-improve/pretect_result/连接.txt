@@ -1,0 +1,6 @@
+计算yolo格式检测任务测试结果的mAP值：https://blog.csdn.net/qq_40840829/article/details/124213169
+
+1.将真实的标签groundtruth改成voc坐标:get_GT.py
+2.将yolo测试的结果改成voc坐标:get_DR.py
+3.通过坐标计算测试与真实的mAP:get_map.py
+（去除测试未生成txt文件的：intersect_gt_and_dr.py）
