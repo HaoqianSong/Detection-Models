@@ -1,0 +1,3 @@
+super-gradients
+triton==2.0.0
+#https://github.com/naseemap47/YOLO-NAS
